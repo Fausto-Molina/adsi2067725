@@ -5,7 +5,7 @@ import dbConnection from './database/config.js';
 
 class server{
     constructor(){
-        this.port= process.env.port;
+        this.PORT= process.env.PORT;
         this.app = express();
 
         this.conectarBD();
